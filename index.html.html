@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.6.4.1 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="00:00:00"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.79in }
+		p { line-height: 115%; margin-bottom: 0.1in; background: transparent }
+		pre { background: transparent }
+		pre.western { font-family: "Liberation Mono", monospace; font-size: 10pt }
+		pre.cjk { font-family: "NSimSun", monospace; font-size: 10pt }
+		pre.ctl { font-family: "Liberation Mono", monospace; font-size: 10pt }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre class="western">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Find Real Matches Near You&lt;/title&gt;
+  &lt;style&gt;
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fefefe;
+      color: #222;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #e63946;
+      font-size: 28px;
+    }
+    .sub {
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .profiles {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 20px;
+    }
+    .profiles img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+    .questionnaire {
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+    select, input[type=&quot;radio&quot;] {
+      margin-bottom: 10px;
+    }
+    .btn {
+      background: #e63946;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 10px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .trust {
+      font-size: 12px;
+      color: #777;
+      margin-top: 30px;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;h1&gt;Real Women in &lt;span id=&quot;city&quot;&gt;Your City&lt;/span&gt; Want to Chat 💬&lt;/h1&gt;
+    &lt;p class=&quot;sub&quot;&gt;100% Privacy • Verified Profiles • No Credit Card Required&lt;/p&gt;
+
+    &lt;div class=&quot;profiles&quot;&gt;
+      &lt;div&gt;
+        &lt;img src=&quot;https://randomuser.me/api/portraits/women/22.jpg&quot; alt=&quot;Jessica&quot;&gt;
+        &lt;p&gt;Jessica (28)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;img src=&quot;https://randomuser.me/api/portraits/women/45.jpg&quot; alt=&quot;Monica&quot;&gt;
+        &lt;p&gt;Monica (32)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;img src=&quot;https://randomuser.me/api/portraits/women/65.jpg&quot; alt=&quot;Sophie&quot;&gt;
+        &lt;p&gt;Sophie (25)&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;form class=&quot;questionnaire&quot;&gt;
+      &lt;label&gt;Who are you looking for?&lt;/label&gt;
+      &lt;input type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;women&quot; checked&gt; Women
+      &lt;input type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;men&quot;&gt; Men
+
+      &lt;label&gt;Your Age:&lt;/label&gt;
+      &lt;select&gt;
+        &lt;option&gt;18–24&lt;/option&gt;
+        &lt;option&gt;25–34&lt;/option&gt;
+        &lt;option&gt;35–44&lt;/option&gt;
+        &lt;option&gt;45+&lt;/option&gt;
+      &lt;/select&gt;
+
+      &lt;label&gt;What are you looking for?&lt;/label&gt;
+      &lt;input type=&quot;radio&quot; name=&quot;intent&quot; value=&quot;casual&quot; checked&gt; Casual Dating&lt;br&gt;
+      &lt;input type=&quot;radio&quot; name=&quot;intent&quot; value=&quot;serious&quot;&gt; Serious Relationship&lt;br&gt;
+      &lt;input type=&quot;radio&quot; name=&quot;intent&quot; value=&quot;chat&quot;&gt; Just Chatting
+    &lt;/form&gt;
+
+    &lt;a href=&quot;https://free.onlychat.space//tr?offer_id=63&amp;aff_id=20&amp;sub1=Rakib&quot; class=&quot;btn&quot;&gt;VIEW MATCHES ➜&lt;/a&gt;
+
+    &lt;p class=&quot;trust&quot;&gt;We respect your privacy. All members are manually reviewed.&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;script&gt;
+    // Optional: Auto-detect user's city using IP API (basic)
+    fetch('https://ipapi.co/json')
+      .then(res =&gt; res.json())
+      .then(data =&gt; {
+        document.getElementById('city').innerText = data.city || 'Your City';
+      });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</body>
+</html>
